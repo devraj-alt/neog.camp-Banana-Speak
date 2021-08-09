@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --primary-color: #FCD34D;
+}
+
+body {
+    font-family: "Lemon", sans-serif;
+    background-color: white;
+    margin: 0px;
+}
+
+.heading {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+}
+
+.minion-img {
+    height: 380px;
+    width: 400px;
+    float: left;
+}
+
+textarea {
+    padding: 2.5rem;
+    width: 35%;
+    margin: 2rem auto;
+    font-family: "Lemon", sans-serif;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+#btn-translate {
+    font-family: "Lemon", sans-serif;
+    background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    cursor: pointer;
+}
+
+#btn-translate:hover {
+    box-shadow: 2px 2px 5px #7F1D1D;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 0.53rem;
+    text-align: center;
+    color: black;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.non-bullet {
+    list-style: none;
+}
+
+.img-size {
+    height: 30px;
+    width: auto;
+}
