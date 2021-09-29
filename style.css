@@ -36,6 +36,7 @@ textarea {
 .container {
   margin: auto;
   text-align: center;
+  min-height: 66vh;
 }
 
 #btn-translate {
@@ -72,4 +73,12 @@ textarea {
 
 .link {
   margin: 1rem;
+}
+@media screen and (max-width: 650px) {
+  textarea {
+    padding: 1rem;
+    width: 35%;
+    margin: 2rem auto;
+    font-family: "Lemon", sans-serif;
+  }
 }
